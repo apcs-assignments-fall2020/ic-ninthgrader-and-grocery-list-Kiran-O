@@ -5,9 +5,11 @@ public class NinthGrader extends Student{
     public NinthGrader(){
         super("Brad","King",2024);
     }
+    @Override
     public void doSomething(){
         System.out.println(this.getFirstName() + "I am studying");
     }
+    @Override
     public String toString(){
         return (this.getFirstName() + this.getLastName() + "," + 2024 + "(Ninth Grade)");
     }
